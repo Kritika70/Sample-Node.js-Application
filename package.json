@@ -4,8 +4,12 @@
     "description": "A Sample Node.js Application",
     "main": "server.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "lint": "eslint .",
+        "test": "jest"
     },
+    
+
     "repository": {
         "type": "git",
         "url": "git+https://github.com/prabod/Sample-Node.js-Application.git"
@@ -31,6 +35,8 @@
         "morgan": "^1.7.0",
         "passport": "^0.2.2",
         "passport-local": "^1.0.0",
-        "serve-static": "^1.9.3"
+        "serve-static": "^1.9.3",
+        "eslint": "^8.x",
+        "jest": "^29.x"
     }
 }
