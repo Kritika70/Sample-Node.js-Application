@@ -22,11 +22,11 @@ jobs:
         node-version: '18'
 
     - name: Install dependencies
-      run: npm install
+      run: npm i
 
     - name: build
       run: npm run build
-      
+
     - name: Run ESLint
       run: npm run lint
 
